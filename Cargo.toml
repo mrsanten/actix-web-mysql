@@ -1,7 +1,10 @@
 [package]
-name = "wow-api-rust"
+name = "actix-web-mysql"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 actix-web = "4"
+actix-rt = "2.10.0"
+sqlx = { version = "0.8", features = ["mysql", "runtime-tokio"] }
+serde = "1.0.210"

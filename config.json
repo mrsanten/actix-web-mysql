@@ -1,0 +1,13 @@
+{
+    "app": {
+        "url": "localhost",
+        "port": 8080
+    },
+    "dao": {
+        "url": "localhost",
+        "port": 27017,
+        "user": "user",
+        "password": "password",
+        "database": "database"
+    }
+}
