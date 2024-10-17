@@ -5,9 +5,9 @@
     },
     "dao": {
         "url": "localhost",
-        "port": 27017,
-        "user": "user",
-        "password": "password",
-        "database": "database"
+        "port": 3306,
+        "user": "actix_web_mysql_user",
+        "password": "actix_web_mysql_password",
+        "database": "actix_web_mysql"
     }
 }
